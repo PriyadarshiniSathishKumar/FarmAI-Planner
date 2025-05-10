@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { Map, Layers, Plant } from "lucide-react";
+import { Map, Layers, Sprout } from "lucide-react";
 import FarmCard from "../ui/FarmCard";
 import { Crop, FarmPlot } from "@/types";
 import { Button } from "@/components/ui/button";
@@ -81,7 +81,7 @@ const FarmMap: React.FC<FarmMapProps> = ({ className }) => {
                   >
                     {plot.cropId && (
                       <div className="text-center">
-                        <Plant className="h-6 w-6 mx-auto" />
+                        <Sprout className="h-6 w-6 mx-auto" />
                         <span className="text-xs font-medium mt-1 block">
                           {getCropById(plot.cropId)?.name || "Unknown"}
                         </span>
@@ -182,7 +182,7 @@ const FarmMap: React.FC<FarmMapProps> = ({ className }) => {
               </div>
             ) : (
               <div className="flex flex-col items-center justify-center h-[180px] text-sm text-stone-500">
-                <Plant className="h-8 w-8 mb-2 opacity-40" />
+                <Sprout className="h-8 w-8 mb-2 opacity-40" />
                 <p>Select a plot to view crop details</p>
               </div>
             )}

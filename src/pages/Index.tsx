@@ -1,14 +1,14 @@
 
 import React, { useState } from "react";
 import { 
-  SeedingIcon, 
-  Plant, 
+  Seedling, 
+  Leaf, 
   Map, 
   Calendar, 
   CloudRain, 
   CloudSun,
   Sun,
-  Soil
+  Sprout
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/layout/Header";
@@ -56,7 +56,7 @@ const Index = () => {
                   className="bg-earth-500 hover:bg-earth-600 mr-3"
                   onClick={() => setStarted(false)}
                 >
-                  <SeedingIcon className="h-4 w-4 mr-2" />
+                  <Seedling className="h-4 w-4 mr-2" />
                   Edit Farm
                 </Button>
                 <Button variant="outline">
@@ -73,7 +73,7 @@ const Index = () => {
             <div className="max-w-3xl mx-auto text-center mb-12">
               <div className="flex justify-center mb-4">
                 <div className="h-16 w-16 bg-earth-100 rounded-full flex items-center justify-center animate-fade-in">
-                  <Plant className="h-8 w-8 text-earth-600" />
+                  <Leaf className="h-8 w-8 text-earth-600" />
                 </div>
               </div>
               
@@ -87,7 +87,7 @@ const Index = () => {
               
               <div className="flex flex-wrap justify-center gap-3 mb-6">
                 <div className="flex items-center bg-earth-100 text-earth-700 rounded-full px-3 py-1.5">
-                  <SeedingIcon className="h-4 w-4 mr-1.5" />
+                  <Seedling className="h-4 w-4 mr-1.5" />
                   <span>Crop Recommendations</span>
                 </div>
                 
@@ -152,7 +152,7 @@ const Index = () => {
                   
                   <div>
                     <label className="block text-sm font-medium mb-1 text-stone-700">
-                      <Soil className="h-4 w-4 inline mr-1" />
+                      <Sprout className="h-4 w-4 inline mr-1" />
                       Soil Type
                     </label>
                     <Select 
@@ -203,7 +203,7 @@ const Index = () => {
                     className="w-full py-6 text-lg bg-earth-500 hover:bg-earth-600"
                     onClick={handleStart}
                   >
-                    <Plant className="h-5 w-5 mr-2" />
+                    <Leaf className="h-5 w-5 mr-2" />
                     Generate My Farm Plan
                   </Button>
                 </div>
@@ -217,7 +217,7 @@ const Index = () => {
                   <span>Climate Aware</span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <Plant className="h-8 w-8 mb-1 text-stone-400" />
+                  <Leaf className="h-8 w-8 mb-1 text-stone-400" />
                   <span>Sustainable</span>
                 </div>
                 <div className="flex flex-col items-center">

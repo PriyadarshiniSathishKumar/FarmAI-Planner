@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Plant, CloudRain, Sun } from "lucide-react";
+import { Leaf, CloudRain, Sun } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto py-4 px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <Plant className="h-8 w-8 mr-2" />
+            <Leaf className="h-8 w-8 mr-2" />
             <Link to="/" className="text-2xl font-bold handwriting tracking-wider">
               FarmAI Planner
             </Link>

@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Leaf, Sprout, SeedingIcon } from "lucide-react";
+import { Leaf, Sprout, Seedling } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               <span>SDG 2: Zero Hunger</span>
             </div>
             <div className="flex items-center text-sm text-stone-600">
-              <SeedingIcon className="h-4 w-4 mr-1 text-earth-500" />
+              <Seedling className="h-4 w-4 mr-1 text-earth-500" />
               <span>SDG 13: Climate Action</span>
             </div>
           </div>

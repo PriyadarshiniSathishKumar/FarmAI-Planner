@@ -1,6 +1,6 @@
 
 import React from "react";
-import { LineChart, SeedingIcon, Sprout, CloudRain } from "lucide-react";
+import { LineChart, Seedling, Sprout, CloudRain } from "lucide-react";
 import FarmCard from "../ui/FarmCard";
 import { 
   LineChart as RechartsLineChart,
@@ -51,7 +51,7 @@ const SustainabilityMetrics: React.FC<SustainabilityMetricsProps> = ({ className
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
           <div className="bg-earth-50 rounded-lg p-4 flex items-center shadow-sm">
             <div className="h-12 w-12 bg-earth-100 rounded-full flex items-center justify-center mr-4">
-              <SeedingIcon className="h-6 w-6 text-earth-700" />
+              <Seedling className="h-6 w-6 text-earth-700" />
             </div>
             <div>
               <div className="text-sm text-stone-600">Climate Score</div>
