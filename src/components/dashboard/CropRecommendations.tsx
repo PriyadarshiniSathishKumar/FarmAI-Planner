@@ -1,6 +1,5 @@
-
 import React, { useState } from "react";
-import { ThumbsUp, Seedling } from "lucide-react";
+import { ThumbsUp, Sprout } from "lucide-react";
 import FarmCard from "../ui/FarmCard";
 import { Crop, SoilType, ClimateZone } from "@/types";
 import { crops } from "@/data/crops";
@@ -39,7 +38,7 @@ const CropRecommendations: React.FC<CropRecommendationsProps> = ({ className }) 
   return (
     <FarmCard 
       title="Crop Recommendations" 
-      icon={<Seedling className="h-5 w-5" />}
+      icon={<Sprout className="h-5 w-5" />}
       className={className}
     >
       <div>
@@ -96,7 +95,7 @@ const CropRecommendations: React.FC<CropRecommendationsProps> = ({ className }) 
           {recommendedCrops.map((crop) => (
             <div key={crop.id} className="bg-stone-50 rounded-lg p-3 flex">
               <div className="h-16 w-16 mr-3 rounded-md bg-white shadow-sm flex items-center justify-center shrink-0">
-                <Seedling className="h-8 w-8 text-earth-600" />
+                <Sprout className="h-8 w-8 text-earth-600" />
               </div>
               
               <div className="flex-1">
@@ -128,7 +127,7 @@ const CropRecommendations: React.FC<CropRecommendationsProps> = ({ className }) 
           
           {recommendedCrops.length === 0 && (
             <div className="text-center py-6 text-stone-500">
-              <Seedling className="h-10 w-10 mx-auto mb-2 opacity-40" />
+              <Sprout className="h-10 w-10 mx-auto mb-2 opacity-40" />
               <p>No crops match the selected criteria.</p>
               <p className="text-sm mt-1">Try different soil or climate options.</p>
             </div>

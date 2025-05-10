@@ -1,14 +1,12 @@
-
 import React, { useState } from "react";
 import { 
-  Seedling, 
+  Sprout, 
   Leaf, 
   Map, 
   Calendar, 
   CloudRain, 
   CloudSun,
-  Sun,
-  Sprout
+  Sun
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/layout/Header";
@@ -56,7 +54,7 @@ const Index = () => {
                   className="bg-earth-500 hover:bg-earth-600 mr-3"
                   onClick={() => setStarted(false)}
                 >
-                  <Seedling className="h-4 w-4 mr-2" />
+                  <Sprout className="h-4 w-4 mr-2" />
                   Edit Farm
                 </Button>
                 <Button variant="outline">
@@ -87,7 +85,7 @@ const Index = () => {
               
               <div className="flex flex-wrap justify-center gap-3 mb-6">
                 <div className="flex items-center bg-earth-100 text-earth-700 rounded-full px-3 py-1.5">
-                  <Seedling className="h-4 w-4 mr-1.5" />
+                  <Sprout className="h-4 w-4 mr-1.5" />
                   <span>Crop Recommendations</span>
                 </div>
                 
