@@ -1,4 +1,12 @@
-# Welcome to your Lovable project
+# FarmAI Planner
+<img width="1888" height="862" alt="image" src="https://github.com/user-attachments/assets/df0d6f6f-4e8c-4728-9fe0-0c02e757bd32" />
+<img width="1887" height="871" alt="image" src="https://github.com/user-attachments/assets/fc406c96-02ee-400b-b383-048244641d2a" />
+<img width="1882" height="865" alt="image" src="https://github.com/user-attachments/assets/f13a7e9f-29af-4a25-9897-399968c9bbf6" />
+<img width="1889" height="870" alt="image" src="https://github.com/user-attachments/assets/395ccc2e-3893-4964-9517-2924ac9fb3b0" />
+
+
+
+
 
 ## Project info
 
